@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Part 9 ex 1</title>
+    </head>
+    <!--A l'aide de la librairie cleave.js, créer un formulaire de paiement. Ajouter un champ nom et un champ prénom, un champ numéro de téléphone, un champ date de commande et un champ carte bancaire.-->
+    <body>
+        <div class="container">
+                <label for="lastname" >Nom : </label>
+                <input class="input-1 right" id="lastname" name="lastname" placeholder="Nom" />
+                <label for="firstname" >Prénom : </label>
+                <input type="text" id="firstname" name="firstname" placeholder="Prénom" />
+                <label for="phone">Téléphone : </label>
+                <input class="input-phone" name="phone" id="phone" placeholder="Numéro de téléphone" />
+                <label for="date">Date</label>
+                <input class="input-date" name="date" id="date" placeholder="Entrez la date : JJ/MM/AAAA" />
+                <label for="card">Numéro de carte</label>
+                <input class="input-credit-card" name="card" id="card" placeholder="Numéro de carte bancaire" />
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.5.10/cleave.min.js"></script>
+    </body>
+</html>
